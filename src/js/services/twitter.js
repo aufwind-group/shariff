@@ -44,6 +44,7 @@ module.exports = function(shariff) {
     name: 'twitter',
     faPrefix: 'fab',
     faName: 'fa-twitter',
+    svgIcon: 'twitter-shariff',
     title: {
       'bg': 'Сподели в Twitter',
       'cs': 'Sdílet na Twiiteru',

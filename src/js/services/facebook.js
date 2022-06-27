@@ -34,6 +34,7 @@ module.exports = function(shariff) {
     name: 'facebook',
     faPrefix: 'fab',
     faName: 'fa-facebook-f',
+    svgIcon: 'facebook-shariff',
     title: {
       'bg': 'Сподели във Facebook',
       'cs': 'Sdílet na Facebooku',

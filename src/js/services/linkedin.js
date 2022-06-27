@@ -36,6 +36,7 @@ module.exports = function(shariff) {
     name: 'linkedin',
     faPrefix: 'fab',
     faName: 'fa-linkedin-in',
+    svgIcon: 'linkedin-shariff',
     title: {
       'bg': 'Сподели в LinkedIn',
       'cs': 'Sdílet na LinkedIn',

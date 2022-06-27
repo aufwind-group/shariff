@@ -34,6 +34,7 @@ module.exports = function(shariff) {
     name: 'xing',
     faPrefix: 'fab',
     faName: 'fa-xing',
+    svgIcon: 'xing-shariff',
     title: {
       'bg': 'Сподели в XING',
       'cs': 'Sdílet na XINGu',
