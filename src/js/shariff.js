@@ -212,8 +212,13 @@ class Shariff {
         $shareLink.append($shareText)
       }
 
-      if (typeof service.faPrefix !== 'undefined' && typeof service.faName !== 'undefined') {
-        $shareLink.prepend($('<span/>').addClass(`${service.faPrefix} ${service.faName}`))
+      if(typeof service.svgIcon !== 'undefined') {
+        let svgMarkup = '<svg class="icon" aria-hidden="true" focusable="false"><use xlink:href="#' + service.svgIcon + '" /></svg>';
+        $shareLink.prepend($(svgMarkup));
+      } else {
+        if (typeof service.faPrefix !== 'undefined' && typeof service.faName !== 'undefined') {
+            $shareLink.prepend($('<span/>').addClass(`${service.faPrefix} ${service.faName}`))
+        }
       }
 
       if (service.popup) {
